@@ -1,8 +1,8 @@
 {{ define "main" }}
-<h1 class="title">{{ lower .Title }} ページ{{ .Paginator.PageNumber }}</h1>
+<h1 class="title">Section List of {{ .Title }} ページ{{ .Paginator.PageNumber }}</h1>
 
 <ul>
-{{ range (.Paginator 10).Pages }}
+{{ range .Paginator.Pages }}
 	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>

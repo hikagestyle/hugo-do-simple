@@ -15,7 +15,7 @@ img{max-width:100%;height:auto;}
 img{line-height:0;vertical-align:bottom;}
 
 pre,code,cite{font-style:normal;font-size:.875rem;font-family:monospace;}
-pre{line-height:1.6;max-width:100%;overflow:auto;padding:1rem;background:#ccc;}
+pre{line-height:1.6;max-width:100%;overflow:auto;padding:1rem;}
 
 table{width:100%;border-collapse:collapse;margin:0 0 1rem;}
 th{width:10%;text-align:left;}
@@ -30,42 +30,22 @@ header{padding:1rem;background:#inherit;}
 main{margin-bottom:2rem;padding:1rem;background:#inherit;}
 aside{padding:1rem;background:#eee;}
 
+.small{font-size:.8rem;}
+
 .section{}
 .content{}
 .title{}
 .subtitle{}
 .count{}
-
 .taxonomy{}
 .taxonomy_datetime{font-size:.8rem;}
 .taxonomy_item{}
 
-.prev{}
+.paging{}
+.previous{}
 .next{}
 
+.post-date{font-size:.8rem;}
 .post-tags{margin:2rem 0;font-size:.8rem;}
 .post-tags a{margin-right:.5rem;}
 .post-nav{margin:2rem 0 0 0;padding:1rem;background:#eee;}
-.prev-post{}
-.next-post{}
-
-.small{font-size:.8rem;}
-.meta{font-size:.8rem;}
-.date{font-size:.8rem;}
-.time{}
-.list{}
-.item{}
-
-.list-none{list-style:none;}
-.m0{margin:0;}
-.mt0{margin-top:0;}
-.mt1{margin-top:1rem;}
-.mt2{margin-top:2rem;}
-.mt3{margin-top:3rem;}
-.mb0{margin-bottom:0;}
-.mb1{margin-bottom:1rem;}
-.mb2{margin-bottom:2rem;}
-.mb3{margin-bottom:3rem;}
-
-.p0{padding:0;}
-
