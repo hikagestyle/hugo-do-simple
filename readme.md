@@ -49,9 +49,7 @@ HUGOで個人的に使うシンプルなテーマ。
 
 ## 完成イメージ
 
-デモサイト
-
-https://hugo-do-simple.netlify.app/
+デモサイト: <a href="https://hugo-do-simple.netlify.app/" target="_blank">https://hugo-do-simple.netlify.app/</a>
 
 
 ## 公式サイト
