@@ -29,12 +29,15 @@ HUGOで個人的に使うシンプルなテーマ。
 - hugo v0.92.0
 - pure.css
 - config.toml
-	- baseURL（最後のスラッシュ無し）
+	- baseURL（最後のスラッシュ有り）
 - toml形式を採用（記事投稿のデフォルト設定）
-- タグ（tags）有効、カテゴリー無し
+- カテゴリー無し
+- タグ（tags）有効
 - 投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）
-- デフォルトは、10件ごとのページ送り（config.toml,Paginate = 10）
-- 任意のページ送り（5件ごとで設定,hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5）
+- デフォルトは、10件ごとのページ送り
+	- config.toml,Paginate = 10
+- 任意のページ送り:5件ごとで設定
+	- hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5
 - 固定ページ
 
 
