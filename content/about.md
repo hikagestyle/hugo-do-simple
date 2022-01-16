@@ -10,7 +10,6 @@ date = 2022-01-01T00:00:00+09:00
 固定ページと記事投稿は、相対リンクの階層が異なるので、記述に注意する。
 
 
-
 <h2>環境</h2>
 
 <ul>
@@ -19,33 +18,34 @@ date = 2022-01-01T00:00:00+09:00
 </ul>
 
 
+## 補足
 
-<h2>このサイトについて</h2>
+サクッと使う個人的な用途で小規模を想定。
 
-<p>サクッと使う個人的な用途で小規模を想定。</p>
+blogフォルダへ投稿を詰め込んで、タグで仕分けるイメージ。
 
-<p>blogフォルダへ投稿を詰め込んで、タグで仕分けるイメージ。</p>
+HUGOで個人的に使うシンプルなテーマ。
 
-<p>HUGOで個人的に使うシンプルなテーマ。</p>
+久しぶりすぎて、およそ5時間くらいで作ったので、大雑把にやっつけです。（2022-01-16）
 
-<p>久しぶりすぎて、およそ5時間くらいで作ったので、大雑把にやっつけです。（2022-01-16）</p>
 
-<ul>
-<li>hugo v0.92.0</li>
-<li>pure.css</li>
-<li>config.tomlのbaseURLは最後のスラッシュ無し</li>
-<li>toml形式を採用（記事投稿のデフォルト設定）</li>
-<li>タグ（tags）有効、カテゴリー無し</li>
-<li>投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）</li>
-<li>デフォルトは、10件ごとのページ送り（config.toml,Paginate = 10）</li>
-<li>任意のページ送り（5件ごとで設定,hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5）</li>
-</ul>
+## 基本的な仕様
+
+- hugo v0.92.0
+- pure.css
+- config.toml
+	- baseURL（最後のスラッシュ無し）
+- toml形式を採用（記事投稿のデフォルト設定）
+- タグ（tags）有効、カテゴリー無し
+- 投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）
+- デフォルトは、10件ごとのページ送り（config.toml,Paginate = 10）
+- 任意のページ送り（5件ごとで設定,hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5）
+- 固定ページ
 
 <p>基本的なファイル一式はGitHubに置いておきます。</p>
 <ul>
 <li><a href="https://github.com/hikagestyle/hugo-do-simple" target="_blank" rel="nofollow noopener noreferrer">hugo-do-simple</a></li>
 </ul>
-
 
 
 <h2>注意点と覚え書き</h2>
@@ -56,7 +56,6 @@ date = 2022-01-01T00:00:00+09:00
 <li>多機能なので、シンプルに記事投稿へ集中するほうが負担は少ない。</li>
 <li>config.tomlは、記述のルールや順番がある。（<a href="https://gohugo.io/getting-started/configuration/" target="_blank" rel="nofollow noopener noreferrer">Configure Hugo</a>）</li>
 </ul>
-
 
 
 ## ビルドまでの流れ
