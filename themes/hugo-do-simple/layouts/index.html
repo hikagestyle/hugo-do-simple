@@ -18,15 +18,24 @@
 
 <p>久しぶりすぎて、およそ5時間くらいで作ったので、大雑把にやっつけです。（2022-01-16）</p>
 
+
+
+<h2>基本的な仕様</h2>
+
 <ul>
 <li>hugo v0.92.0</li>
 <li>pure.css</li>
-<li>config.tomlのbaseURLは最後のスラッシュ無し</li>
+<li>config.toml
+<ul>
+<li>baseURL（最後のスラッシュ無し）</li>
+</ul>
+</li>
 <li>toml形式を採用（記事投稿のデフォルト設定）</li>
 <li>タグ（tags）有効、カテゴリー無し</li>
 <li>投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）</li>
 <li>デフォルトは、10件ごとのページ送り（config.toml,Paginate = 10）</li>
 <li>任意のページ送り（5件ごとで設定,hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5）</li>
+<li>固定ページ</li>
 </ul>
 
 <p>基本的なファイル一式はGitHubに置いておきます。</p>
