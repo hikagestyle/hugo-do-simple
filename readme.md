@@ -47,6 +47,6 @@ https://hugo-do-simple.netlify.app/
 
 ## 公式サイト
 
-- [Zola](https://www.getzola.org/)
+- [HUGO](https://gohugo.io/)
 - [Pure](https://purecss.io/)
 
