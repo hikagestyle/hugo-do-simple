@@ -1,13 +1,15 @@
-{{ define "main" }}
-<h1 class="title">{{ lower .Title }} ページ{{ .Paginator.PageNumber }}</h1>
+{{ define "title" }}  <title>{{ lower .Title }}: ページ{{ .Paginator.PageNumber }} - {{ .Site.Title }}</title>{{ end }}
 
-<ul>
+{{ define "main" }}
+<h1 class="title">{{ lower .Title }}: ページ{{ .Paginator.PageNumber }}</h1>
+
+<ul class="list-none p0">
 {{ range (.Paginator 10).Pages }}
-	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+	<li><span class="date">{{ dateFormat "2006-01-02" .PublishDate }}</span> <a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
 
-<p class="small">{{ .Paginator.PageNumber }}ページ目 / 全{{ .Paginator.TotalPages }}ページ</p>
+<p class="meta">{{ .Paginator.PageNumber }}ページ目 / 全{{ .Paginator.TotalPages }}ページ</p>
 
 	{{ partial "pagination.html" . }}
 {{ end }}

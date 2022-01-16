@@ -1,7 +1,9 @@
+{{ define "title" }}  <title>{{ .Title }} - {{ .Site.Title }}</title>{{ end }}
+
 {{ define "main" }}
 <h1 class="title">{{ .Title }}</h1>
 
-<div class="post-date">{{ dateFormat "2006-01-02" .PublishDate }}</div>
+<div class="date">{{ dateFormat "2006-01-02" .PublishDate }}</div>
 
 {{ .Content }}
 
@@ -16,7 +18,7 @@
 
 	<div class="post-nav">
 {{- with .PrevInSection }}
-<div class="prev-post">Prev: <a class="previous" href="{{.Permalink}}">{{ .Title }}</a></div>
+<div class="prev-post">Prev: <a class="prev" href="{{.Permalink}}">{{ .Title }}</a></div>
 {{- end }}
 {{- with .NextInSection }}
 <div class="next-post">Next: <a class="next" href="{{.Permalink}}">{{ .Title }}</a></div>

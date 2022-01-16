@@ -5,13 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {{ if .IsHome }}<title>{{ .Site.Title }}</title>{{ else }}<title>{{ .Title }} - {{ .Site.Title }}</title>{{ end }}
+{{ block "title" . }}  <title>{{ .Site.Title }}</title>{{ end }}
 
 {{ partial "_style.html" . }}
 
 <link rel="icon" href="{{ .Site.BaseURL }}img/favicon.ico" type="image/png">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.BaseURL }}/img/apple-touch-icon.png">
-
 
 {{ partial "_analytics.html" . }}
 
@@ -28,6 +27,7 @@
 
 
 <div id="layout" class="pure-g">
+
   <main id="main" class="pure-u-1 pure-u-md-1 pure-u-lg-5-8">
 
 <div class="content">
@@ -43,6 +43,7 @@
 
 
 </div>{{ printf "<!-- /.pure-g -->" | safeHTML }}
+
 </div>{{ printf "<!-- /.wrapper -->" | safeHTML }}
 
 </body>

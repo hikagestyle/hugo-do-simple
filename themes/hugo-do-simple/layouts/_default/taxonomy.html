@@ -1,6 +1,8 @@
+{{ define "title" }}  <title>{{ .Title }}: {{ .Paginator.PageNumber }}ページ目 - {{ .Site.Title }}</title>{{ end }}
+
 {{ define "main" }}
 
-<h1 class="title">{{ .Title }}</h1>
+<h1 class="title">{{ .Title }}: {{ .Paginator.PageNumber }}ページ目</h1>
 
 {{ range (.Paginator 5).Pages }}
 <div class="taxonomy">
@@ -9,7 +11,7 @@
 </div>{{ printf "<!-- /.taxonomy -->" | safeHTML }}
 {{ end }}
 
-<p class="small">{{ .Paginator.PageNumber }}ページ目 / 全{{ .Paginator.TotalPages }}ページ</p>
+<p class="meta">{{ .Paginator.PageNumber }}ページ目 / 全{{ .Paginator.TotalPages }}ページ</p>
 
 	{{ partial "pagination.html" . }}
 

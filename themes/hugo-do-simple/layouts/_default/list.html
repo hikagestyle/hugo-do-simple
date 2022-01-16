@@ -1,3 +1,5 @@
+{{ define "title" }}  <title>List of {{ lower .Title }} ページ{{ .Paginator.PageNumber }} - {{ .Site.Title }}</title>{{ end }}
+
 {{ define "main" }}
 <h1 class="title">List of {{ lower .Title }} ページ{{ .Paginator.PageNumber }}</h1>
 

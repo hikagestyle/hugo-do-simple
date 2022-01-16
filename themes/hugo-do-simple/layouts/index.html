@@ -1,3 +1,5 @@
+{{ define  "title" }}  <title>{{ .Site.Title }}</title>{{ end }}
+
 {{ define "main" }}
 
 <h1 class="title">My New Hugo Site</h1>
@@ -8,42 +10,9 @@
 
 
 
-<h2>このサイトについて</h2>
+<h2>完成イメージ</h2>
 
-<p>サクッと使う個人的な用途で小規模を想定。</p>
-
-<p>blogフォルダへ投稿を詰め込んで、タグで仕分けるイメージ。</p>
-
-<p>HUGOで個人的に使うシンプルなテーマ。</p>
-
-<p>久しぶりすぎて、およそ5時間くらいで作ったので、大雑把にやっつけです。（2022-01-16）</p>
-
-
-
-<h2>基本的な仕様</h2>
-
-<ul>
-<li>hugo v0.92.0</li>
-<li>pure.css</li>
-<li>config.toml
-<ul>
-<li>baseURL（最後のスラッシュ無し）</li>
-</ul>
-</li>
-<li>toml形式を採用（記事投稿のデフォルト設定）</li>
-<li>タグ（tags）有効、カテゴリー無し</li>
-<li>投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）</li>
-<li>デフォルトは、10件ごとのページ送り（config.toml,Paginate = 10）</li>
-<li>任意のページ送り（5件ごとで設定,hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5）</li>
-<li>固定ページ</li>
-</ul>
-
-<p>基本的なファイル一式はGitHubに置いておきます。</p>
-<ul>
-<li><a href="https://github.com/hikagestyle/hugo-do-simple" target="_blank" rel="nofollow noopener noreferrer">hugo-do-simple</a></li>
-</ul>
-
-<p>サイトの概要や詳細: <a href="./about/">あばうと</a></p>
+<p>デモサイト: <a href="https://hugo-do-simple.netlify.app/" target="_blank">https://hugo-do-simple.netlify.app/</a></p>
 
 
 
