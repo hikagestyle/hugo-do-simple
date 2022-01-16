@@ -1,0 +1,34 @@
+baseURL = "https://www.example.com/"
+title = "My New Hugo Site"
+
+languageCode = "ja"
+theme = "hugo-do-simple"
+
+hasCJKLanguage = true
+summaryLength = 100
+Paginate = 10
+PaginatePath = "page"
+
+disableHugoGeneratorInject = true
+disablePathToLower = false
+preserveTaxonomyNames = false
+
+[params]
+description = "hugoデモサイトのディスクリプション"
+
+[taxonomies]
+tag = "tags"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+linkify = true
+
+[markup.goldmark.parser]
+attribute = false
+autoHeadingID = true
+autoHeadingIDType = "github-ascii"
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
