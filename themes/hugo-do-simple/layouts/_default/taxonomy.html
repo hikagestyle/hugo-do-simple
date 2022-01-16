@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<h1 class="title">{{ .Title }}</h1>
+
+{{ range (.Paginator 5).Pages }}
+<div class="taxonomy">
+<span class="taxonomy_datetime">{{ dateFormat "2006-01-02" .PublishDate }}</span>
+<span class="taxonomy_item"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+</div>{{ printf "<!-- /.taxonomy -->" | safeHTML }}
+{{ end }}
+
+<p class="meta">{{ .Paginator.PageNumber }}ページ目 / 全{{ .Paginator.TotalPages }}ページ</p>
+
+	{{ partial "pagination.html" . }}
+
+{{ end }}

@@ -1,0 +1,9 @@
+{{- if .Site.IsServer }}
+
+{{ printf "<!-- ローカルサーバで動作しています。 -->" | safeHTML }}
+<meta name="generator" content="Hugo {{ .Site.Hugo.Version }}">
+{{- else }}
+
+{{ printf "<!-- analytics -->" | safeHTML }}
+
+{{ end -}}

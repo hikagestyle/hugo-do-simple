@@ -1,0 +1,9 @@
+{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+{{- if .Paginator.HasPrev }}
+	<a class="prev pure-button" href="{{ .Paginator.Prev.URL }}" rel="prev">Prev</a>
+{{- end }}
+
+{{- if .Paginator.HasNext }}
+	<a class="next pure-button" href="{{ .Paginator.Next.URL }}" rel="next">Next</a>
+{{- end }}
+{{- end }}
