@@ -28,6 +28,7 @@ HUGOで個人的に使うシンプルなテーマ。
 
 - 微調整
 	- themes/hugo-do-simple
+	- content/blog
 
 
 ## 基本的な仕様
