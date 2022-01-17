@@ -3,7 +3,11 @@ title = "Markdown Demonstration"
 date = 2018-07-18
 +++
 
-Testing every `elements` you can find in [CommonMark](http://commonmark.org).
+Goldmark is from Hugo 0.60 the default library used for Markdown. It’s fast, it’s CommonMark compliant and it’s very flexible. Note that the feature set of Goldmark vs Blackfriday isn’t the same; you gain a lot but also lose some, but we will work to bridge any gap in the upcoming Hugo versions.
+
+[Configure Markup](https://gohugo.io/getting-started/configuration-markup)
+
+Goldmark is from Hugo 0.60 the default library used for Markdown. It’s fast, it’s CommonMark compliant and it’s very flexible. Note that the feature set of Goldmark vs Blackfriday isn’t the same; you gain a lot but also lose some, but we will work to bridge any gap in the upcoming Hugo versions.
 <!-- more -->
 
 Quisque viverra a eros id auctor. Proin id nibh ut nisl dignissim pellentesque et ac mi. Nullam mattis urna quis consequat bibendum. Donec pretium dui elit, a semper purus tristique et. Mauris euismod nisl eu vehicula facilisis. Maecenas facilisis non massa non scelerisque. Integer malesuada cursus erat eu viverra. Duis ligula mi, eleifend vel justo id, laoreet porttitor ex. Etiam ultricies lacus lorem, sed aliquam nulla blandit in. Maecenas vel facilisis neque, vitae fringilla eros. In justo nibh, pellentesque sed faucibus nec, varius sit amet risus.
