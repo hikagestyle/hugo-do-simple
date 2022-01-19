@@ -29,7 +29,7 @@ HUGOで個人的に使うシンプルなテーマ。
 - 微調整
 	- themes/hugo-do-simple
 	- content/about.md
-	- 
+
 ### 2022-01-17（変更）
 
 - 微調整
