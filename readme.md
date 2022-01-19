@@ -45,7 +45,8 @@ HUGOで個人的に使うシンプルなテーマ。
 	- config.toml,Paginate = 10
 - 任意のページ送り:5件ごとで設定
 	- hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5
-- 固定ページ
+- 固定ページ（デフォルト:日付表示なし）
+	- hugo-do-simple/layouts/_default/single.html,コメントアウト
 
 
 ## 完成イメージ
