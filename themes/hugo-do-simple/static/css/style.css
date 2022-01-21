@@ -25,9 +25,9 @@ table th{background:#eee;}
 .site-title{font-size:1.6rem;font-weight:bold;margin:0;padding:0;}
 .site-description{font-size:.8rem;margin:.2rem 0;padding:0;}
 
-header{padding:1rem;background:#inherit;}
-.menu{padding:1rem;background:#inherit;}
-main{margin-bottom:2rem;padding:1rem;background:#inherit;}
+header{padding:1rem;background:inherit;}
+.menu{padding:1rem;background:inherit;}
+main{margin-bottom:2rem;padding:1rem;background:inherit;}
 aside{padding:1rem;background:#eee;}
 
 .section{}
