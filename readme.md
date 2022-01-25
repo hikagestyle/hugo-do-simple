@@ -60,8 +60,7 @@ HUGOで個人的に使うシンプルなテーマ。
 - 投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）
 - デフォルトは、10件ごとのページ送り
 	- config.toml,Paginate = 10
-- 任意のページ送り:5件ごとで設定
-	- hugo-do-simple/layouts/_default/taxonomy.html,.Paginator 5
+	- blog,tags/xxxx
 - 固定ページ（デフォルト:日付表示なし）
 	- hugo-do-simple/layouts/_default/single.html,コメントアウト
 
