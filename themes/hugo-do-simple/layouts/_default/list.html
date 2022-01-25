@@ -4,7 +4,7 @@
 <h1 class="title">List of {{ lower .Title }} ページ{{ .Paginator.PageNumber }}</h1>
 
 <ul>
-{{ range (.Paginator 10).Pages }}
+{{ range (.Paginator).Pages }}
 	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
