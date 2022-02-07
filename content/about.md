@@ -27,31 +27,9 @@ HUGOで個人的に使うシンプルなテーマ。
 久しぶりすぎて、およそ5時間くらいで作ったので、大雑把にやっつけです。（2022-01-16）
 
 
-### 2022-01-26（変更）
-
-- 微調整
-	- content/about.md
-	- themes/hugo-do-simple
-
-### 2022-01-22（修正）
-
-- 微調整
-	- themes/hugo-do-simple/static/css/style.css
-
-### 2022-01-19（修正）
-
-- 微調整
-	- themes/hugo-do-simple
-	- content/about.md
-
-### 2022-01-17（変更）
-
-- 微調整
-	- themes/hugo-do-simple
-	- content/blog
-
-
 ## 基本的な仕様
+
+ドメイン直下、サブディレクトリでも、とりあえず使えるはず。（config.tomlのbaseURLによる）
 
 - hugo v0.92.0
 - pure.css
@@ -63,9 +41,11 @@ HUGOで個人的に使うシンプルなテーマ。
 - 投稿のタグ付けは日本語を使わないようにする（翻訳・英訳）
 - デフォルトは、10件ごとのページ送り
 	- config.toml,Paginate = 10
-	- blog,tags/xxxx
+	- blog
+	- tags/xxx
 - 固定ページ（デフォルト:日付表示なし）
-	- hugo-do-simple/layouts/_default/single.html,コメントアウト
+	- hugo-do-simple2/layouts/_default/single.html
+	- コメントアウト
 
 <p>基本的なファイル一式はGitHubに置いておきます。</p>
 <ul>
