@@ -50,6 +50,8 @@ HUGOで個人的に使うシンプルなテーマ。
 
 ## 基本的な仕様
 
+ドメイン直下、サブディレクトリでも、とりあえず使えるはず。（config.tomlのbaseURLによる）
+
 - hugo v0.92.0
 - pure.css
 - config.toml
@@ -62,7 +64,8 @@ HUGOで個人的に使うシンプルなテーマ。
 	- config.toml,Paginate = 10
 	- blog,tags/xxxx
 - 固定ページ（デフォルト:日付表示なし）
-	- hugo-do-simple/layouts/_default/single.html,コメントアウト
+	- hugo-do-simple/layouts/_default/single.html
+	- コメントアウト
 
 
 ## 完成イメージ
