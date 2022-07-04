@@ -44,7 +44,7 @@ HUGOで個人的に使うシンプルなテーマ。
 	- blog
 	- tags/xxx
 - 固定ページ（デフォルト:日付表示なし）
-	- hugo-do-simple2/layouts/_default/single.html
+	- hugo-do-simple/layouts/_default/single.html
 	- コメントアウト
 
 <p>基本的なファイル一式はGitHubに置いておきます。</p>
